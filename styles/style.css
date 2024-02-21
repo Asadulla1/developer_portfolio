@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Encode Sans Semi Condensed';
+  font-family: "Encode Sans Semi Condensed";
 }
 .header {
   background-color: #fff8f3;
@@ -63,7 +63,7 @@ button {
   margin-right: 25px;
 }
 .about-me-section {
-    padding: 20px;
+  padding: 20px;
   width: 80%;
   margin: 150px auto;
   background-color: #fff8f3;
@@ -73,19 +73,73 @@ button {
   padding: 30px 0px;
   margin: 0px auto;
   text-align: center;
-  
 }
-.bio{
-    margin-top: 50px;
+.bio {
+  margin-top: 50px;
 }
-.bio-info{
-    display: flex;
-    justify-content: space-evenly;
-    
+.bio-info {
+  display: flex;
+  justify-content: space-evenly;
 }
-.bio-info li{
-    list-style: none;
-    text-align: center;
+.bio-info li {
+  list-style: none;
+  text-align: center;
 }
-
+.description {
+  margin: 0px auto;
+  /* text-align: center; */
+  width: 80%;
+}
+.desc {
+  text-align: center;
+  width: 80%;
+  margin: 15px auto;
+}
+.desc p {
+  text-align: center;
+  margin: 20px auto;
+  width: 50%;
+  color: rgb(129, 128, 128);
+  line-height: 25px;
+}
+.cards {
+  display: flex;
+}
+.card img {
+  width: 30px;
+}
+.card {
+  margin: 70px;
+  border-radius: 20px;
+  padding: 30px;
+  background: white;
+  line-height: 35px;
+  box-shadow: 3px 3px 3px 3px rgb(129, 129, 129);
+}
+.card p {
+  text-align: justify;
+}
+.summary {
+  width: 80%;
+  margin: 20px auto;
+}
+.resume-summary {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.education-div,
+.experience-div {
+  line-height: 30px;
+  margin: 40px 0px;
+  border-bottom: 1px solid rgb(230, 227, 227);
+}
+.summary-heading {
+  text-align: center;
+  margin: 50px 0px;
+}
+.education-div,
+.experience-div p {
+  width: 80%;
+}
 
